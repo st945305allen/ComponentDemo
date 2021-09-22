@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ComponentEditText">
+        <!-- true/false -->
+        <attr name="is_necessary" format="boolean"/>
+        <!-- ToDay-->
+        <attr name="default_date" format="string"/>
+        <!-- hint string-->
+        <attr name="hint" format="string"/>
+    </declare-styleable>
+</resources>

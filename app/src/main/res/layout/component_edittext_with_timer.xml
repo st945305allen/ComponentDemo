@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <TextView
+            android:drawableLeft="@drawable/ic_calendar"
+            android:id="@+id/et"
+            android:drawablePadding="@dimen/common_control_padding"
+            style="@style/CommonEditText"
+            android:inputType="text"
+            android:gravity="center_vertical"
+            android:autofillHints="" />
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/ButtonClear"
+            android:focusable="false"/>
+</FrameLayout>

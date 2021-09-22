@@ -1,0 +1,63 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 共用 Button Style -->
+    <style name="CommonButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_button</item>
+        <item name="android:textColor">@color/common_theme_light1</item>
+        <item name="android:layout_margin">@dimen/common_control_stroke_width</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- 共用 LinearLayout GroupBox Style -->
+    <style name="CommonLinearLayoutGroupBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/bg_common_linearlayout_groupbox</item>
+        <item name="android:layout_margin">@dimen/common_control_margin</item>
+    </style>
+
+    <style name="CommonEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/common_control_layout_height</item>
+        <item name="android:background">@drawable/bg_common_edittext</item>
+        <item name="android:textColor">@color/common_theme_dark3</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- ImageButton Style(Clear) -->
+    <style name="ButtonClear">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">end|center_vertical</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@drawable/ic_clear</item>
+    </style>
+
+    <!-- ImageButton Style(Scan) -->
+    <style name="ButtonScan">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">end|center_vertical</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@drawable/ic_scan</item>
+    </style>
+    <!-- ImageButton Style(Date) -->
+    <style name="ButtonDate">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">start|center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:background">@drawable/ic_calendar</item>
+    </style>
+</resources>
